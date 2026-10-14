@@ -1,0 +1,176 @@
+{
+  "version": "1.0.2",
+  "filename": "ETFQuantDashboard-1.0.2-AppleSilicon.dmg",
+  "size": 232991988,
+  "sha256": "007bae3f7e88b598c4c4a0377baac9432d43d7ce61d6f27de35daa8eaac9ef5d",
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "size": 8388608,
+      "sha256": "e459d3e1909d6aa2bdaad384c8fef50d8d0b47d5cd8e8cb310ddb430765de907",
+      "blob_sha": "0b99a406eec031723c86d29360b2db169fbeab66"
+    },
+    {
+      "name": "part-001.bin",
+      "size": 8388608,
+      "sha256": "00d0e39c2ea634bae475fb1d384732693ea7e3ad96abb1d8d2cd65543e016fe5",
+      "blob_sha": "350e7f3e9ef3871408c6f5e777b0a77c15d9f2df"
+    },
+    {
+      "name": "part-002.bin",
+      "size": 8388608,
+      "sha256": "917f6fb658183e47be9843518c99db7fb80b4a69a14433311478751835199f6c",
+      "blob_sha": "c4393d7f9325d0003dff8481da826d0c39553009"
+    },
+    {
+      "name": "part-003.bin",
+      "size": 8388608,
+      "sha256": "9f34d769a70d7569970e4b9bca730c027bbb682911d6e1eee6f9c4d8b7084186",
+      "blob_sha": "b8ee3fcba545cb3e67f7ab654d760efa301f8a92"
+    },
+    {
+      "name": "part-004.bin",
+      "size": 8388608,
+      "sha256": "a1ec45d7dc8f7fd8fb862266ad1ff3b8d8375c3fa82b30f351baaaa7ebda9cd4",
+      "blob_sha": "96bb454724708ce5918831ba674454fca409deb3"
+    },
+    {
+      "name": "part-005.bin",
+      "size": 8388608,
+      "sha256": "d92df84d7a8e38d90ca9531cc73cdcce9178b73001299ffcea0ab6186e4c42a4",
+      "blob_sha": "29208b17e0ae90c14a5a3490e7e846b0b944791c"
+    },
+    {
+      "name": "part-006.bin",
+      "size": 8388608,
+      "sha256": "bafde9833a47a226901b561cf1a4503a28237e165c536c05a3b6bf6841793d3f",
+      "blob_sha": "1c0214a5473597a864e8f8f3aa84eb9ae9d7696e"
+    },
+    {
+      "name": "part-007.bin",
+      "size": 8388608,
+      "sha256": "604ab72b59519e514de7b126b5a024af64a69831018eace1b7b87c213de188eb",
+      "blob_sha": "402a02655019606894f7aeba1b6eba20f4f44094"
+    },
+    {
+      "name": "part-008.bin",
+      "size": 8388608,
+      "sha256": "c430d05ff2317f6585fe9dc88e6de7f0973946a399c2f0716a7e06ffabc2a81e",
+      "blob_sha": "2590a4607bf7f2fef132cdcfdaf03e690db5c5f9"
+    },
+    {
+      "name": "part-009.bin",
+      "size": 8388608,
+      "sha256": "16dcda87388b2af3ea62418eb63fb0ef6f9fd3a42461596534f944e8167901dc",
+      "blob_sha": "3de11125a256ba20808bbc9a7fbed97c464dfc77"
+    },
+    {
+      "name": "part-010.bin",
+      "size": 8388608,
+      "sha256": "f439600566c659c0d93551c428c11228cff21d1051c8f3be27a149ec0405fa4e",
+      "blob_sha": "50a03753eab46e8f4e5d6bde0a81e4099967fb41"
+    },
+    {
+      "name": "part-011.bin",
+      "size": 8388608,
+      "sha256": "55b1d3a5391cb51c114c8064d4fafc8e8b135d941374f78d8efc2b6afcc601b3",
+      "blob_sha": "1c4b24451a0dc9722c736022ebdbcd4b157e774a"
+    },
+    {
+      "name": "part-012.bin",
+      "size": 8388608,
+      "sha256": "0041659fa67ca4aa4a73e9c53bbf3761953e61d1b04f594b89c08aa318d8f97f",
+      "blob_sha": "33d48558d656f63e92b01adef0594b08b8efa015"
+    },
+    {
+      "name": "part-013.bin",
+      "size": 8388608,
+      "sha256": "2f35f8571e18a8ae63482edd6215754013694a599b24065147bdfaccf6487d1f",
+      "blob_sha": "d5a2c77235a667ba9c1863e278c9af479d757a18"
+    },
+    {
+      "name": "part-014.bin",
+      "size": 8388608,
+      "sha256": "2fc2ba9e93a437f4ae27abcb2a60889a140b47805c464ff5bcbfc6fa619df307",
+      "blob_sha": "8dfd699e4f94e03f21a4f0135abc43e3214d7921"
+    },
+    {
+      "name": "part-015.bin",
+      "size": 8388608,
+      "sha256": "10bad4cf187f880ab2d48b4677bd3ef357e37e211d902eee6b83ef8c90ad4864",
+      "blob_sha": "e4dc87d4f1458940bdc04782982dd5206408d9aa"
+    },
+    {
+      "name": "part-016.bin",
+      "size": 8388608,
+      "sha256": "d39f9c972cab3590854d460086b5ab92f3862598d2745e7a817d4436f7d3de1a",
+      "blob_sha": "f450bf71f278f55489d51b036486f93cc00bbfb1"
+    },
+    {
+      "name": "part-017.bin",
+      "size": 8388608,
+      "sha256": "6ac577ebf6643dbb4fecccf6039a2010e5b37dbb18a5d2ed6052a4e17e2957af",
+      "blob_sha": "0721d5cbb7ad10cb07750bef44bd11605fa18e76"
+    },
+    {
+      "name": "part-018.bin",
+      "size": 8388608,
+      "sha256": "c9b78ae0c067e1f9c0830ddae99d1f1d4b3b9b5b802bd1ad9418429b6dd74d52",
+      "blob_sha": "b1b5f81d04f3eb1870fc3217ea78c6bbe7f47fe5"
+    },
+    {
+      "name": "part-019.bin",
+      "size": 8388608,
+      "sha256": "775f4d37d059be9242aa51319cf0d56d87cd0cfac032c77a4772e8385bf66ddd",
+      "blob_sha": "1296f62f650497165334fb7269d67737a87a6bce"
+    },
+    {
+      "name": "part-020.bin",
+      "size": 8388608,
+      "sha256": "e4c06c19daff5c71599449f40603430314edd2df2245b8c706009479564657d9",
+      "blob_sha": "611144e2d6df335a2303cfece5d4b126c67b0a46"
+    },
+    {
+      "name": "part-021.bin",
+      "size": 8388608,
+      "sha256": "453e5fa01328c2c3f6d48820ce574e012b67cf9258d605372ba09cf7f728f3e3",
+      "blob_sha": "73116a59293501f98d69150fc11dd074d25b392e"
+    },
+    {
+      "name": "part-022.bin",
+      "size": 8388608,
+      "sha256": "62abaab5d6ef325928059ae04c51908d5b83cbcc45ee3d4f4bd77565b9346af3",
+      "blob_sha": "31882ec6c892a2193e489de106062b2cbf515cd0"
+    },
+    {
+      "name": "part-023.bin",
+      "size": 8388608,
+      "sha256": "781a1f2f87865f5593b9e013dbad1e1666d57ae2893ffb021acf43752844c744",
+      "blob_sha": "b911d2c0fd9f668deb7231d3a80742eed2dd3c80"
+    },
+    {
+      "name": "part-024.bin",
+      "size": 8388608,
+      "sha256": "cd8726bec0bf8c3f97e63e919ef6ef18855077170de1bc5087e7d65fcb1bb338",
+      "blob_sha": "44a1f2bcbd1bce01777dd9c597e84052fb092b36"
+    },
+    {
+      "name": "part-025.bin",
+      "size": 8388608,
+      "sha256": "8f3dba2af998390db2978c19ba1535926a2c22ba09858a349e0cea8d58898d33",
+      "blob_sha": "f2586e5150d9f73d9d29715346d374de3fd45aa7"
+    },
+    {
+      "name": "part-026.bin",
+      "size": 8388608,
+      "sha256": "33e5d707df2daabbcd6f5b0d91e8d8c02f07b7edd686c069000f46c998e51343",
+      "blob_sha": "1ddb7b58798b130a2c09fe6a0baae9016e18b5ab"
+    },
+    {
+      "name": "part-027.bin",
+      "size": 6499572,
+      "sha256": "06f831bd7b7204ec162c724d42c63c632830bf8aa902571bbacd8c4d27ba0287",
+      "blob_sha": "6cea8e0d28ca10f40c15bc1a68303264a8c5ad62"
+    }
+  ]
+}
