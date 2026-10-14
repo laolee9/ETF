@@ -1,0 +1,164 @@
+{
+  "version": "1.0.1",
+  "filename": "ETFQuantDashboard-1.0.1-AppleSilicon.dmg",
+  "size": 213551500,
+  "sha256": "ff0e73aa8237ff5c4c02d59df7467ebbef2e305c5b47ac36b0d5a4136820b4f9",
+  "parts": [
+    {
+      "name": "part-000.bin",
+      "size": 8388608,
+      "sha256": "c7a78dc9a9c137421dd7b46a061db6c7137b16756906cffe749b60c2fcb6ac57",
+      "blob_sha": "76adda11889b0e0637e4e22076a138c56110d9a1"
+    },
+    {
+      "name": "part-001.bin",
+      "size": 8388608,
+      "sha256": "0e538f8f1469ba01d714872dd7d9ca51631c397a006c2bd486fafbaa422719c6",
+      "blob_sha": "4d69dd53df0662eb7f4360480444a6edb5d016f1"
+    },
+    {
+      "name": "part-002.bin",
+      "size": 8388608,
+      "sha256": "4cc7c0293441e62e701f78d56cfc2b33e7aed85c66b6a53a5e1c9128e9f5ce63",
+      "blob_sha": "3d8f67e424314382099dc23a1479d1f7efdce529"
+    },
+    {
+      "name": "part-003.bin",
+      "size": 8388608,
+      "sha256": "69770153bd9128040dba1c884556b65c0ae32e4df599fb84eee7a882bc42d9a8",
+      "blob_sha": "230431fb6a314da372591fee069e928ba5c38853"
+    },
+    {
+      "name": "part-004.bin",
+      "size": 8388608,
+      "sha256": "07a6bd145b43775cde864fb6d232096e8792df490bcd91441927735d7f5d0932",
+      "blob_sha": "35a91971850b17fdd6b4f6e8c0cae6545ba8780c"
+    },
+    {
+      "name": "part-005.bin",
+      "size": 8388608,
+      "sha256": "40c50eb939fbaaf561fa0cfbbd4996018e0b23b90eb6f6624d2da265634da74f",
+      "blob_sha": "164e3b5bb8e56be33c779e6b383be7136cdf4830"
+    },
+    {
+      "name": "part-006.bin",
+      "size": 8388608,
+      "sha256": "a9b6bfacb4f904b7931b4792b55476d77fad4d63f61fc82e80e163c15b0807ac",
+      "blob_sha": "f2a70dcbd1b92c502ab8ad802898d59684c1a6c8"
+    },
+    {
+      "name": "part-007.bin",
+      "size": 8388608,
+      "sha256": "aeb148c3960b6367cf733d3d73edb5691b5e9617e4503a4d0e59e9dca6daac2a",
+      "blob_sha": "3afe4d4d759f9a0e3935742bb972f4b3a5db2c78"
+    },
+    {
+      "name": "part-008.bin",
+      "size": 8388608,
+      "sha256": "6966e62f752a3063aab069bbd2ebfad31fa19be3fb59003baadfce8305e0de41",
+      "blob_sha": "5744ae44399366fba586d0396121eb66dab3a68a"
+    },
+    {
+      "name": "part-009.bin",
+      "size": 8388608,
+      "sha256": "8fee9c30f5f83bb8c26988467e27044e9db3f0a7ccce2257f6bd866c17fc2393",
+      "blob_sha": "deb1b8f15660131d99a77dbfef1c366317fcbede"
+    },
+    {
+      "name": "part-010.bin",
+      "size": 8388608,
+      "sha256": "9b1bfcb6a0d10cca958ffea50b48b10c46e81fa806a4725721d1d55562114ebc",
+      "blob_sha": "b9f2f951775c1462d08e975c367ce7f4fdacb58c"
+    },
+    {
+      "name": "part-011.bin",
+      "size": 8388608,
+      "sha256": "0bcc9024a79f8a08f75d7b344578b552ccf24e0106467c79fe39cb89f9b146e9",
+      "blob_sha": "3f01753e6bc4d0c6140bad613d526e2f550f5abc"
+    },
+    {
+      "name": "part-012.bin",
+      "size": 8388608,
+      "sha256": "8b60277af48ec34a2b9b9225e57961eff736fb2b8ca17ef076e9163e30a412c9",
+      "blob_sha": "ff44cdc3a655c284ad85690d267d18c94facc379"
+    },
+    {
+      "name": "part-013.bin",
+      "size": 8388608,
+      "sha256": "5cad0dd72bacf01fdab9ec30332708f3e7aae5bbc226ec1c8117c5ce2d0de7a8",
+      "blob_sha": "d28158cb299142c3e656bcd9ef39d6fc176e27c3"
+    },
+    {
+      "name": "part-014.bin",
+      "size": 8388608,
+      "sha256": "10af323af2f4e485bc2db06f52adfd9027065c633054810a4272e5dc12559189",
+      "blob_sha": "0781d10a3f241f81f71fdf8f47c0e14ff6ef96bb"
+    },
+    {
+      "name": "part-015.bin",
+      "size": 8388608,
+      "sha256": "5755b12042ef8046a28a45cb171683420d9565feb73d6a89ce7698a416be4295",
+      "blob_sha": "9acfc295baf8c86d68df0c7210c7b251e83be4a8"
+    },
+    {
+      "name": "part-016.bin",
+      "size": 8388608,
+      "sha256": "fda117db0e92bb3c6320ed2561d22708758bc273fedddbbd488e6895c5c230b3",
+      "blob_sha": "7773444e87e6da71f195b49f557a497ef8195925"
+    },
+    {
+      "name": "part-017.bin",
+      "size": 8388608,
+      "sha256": "0303cbfc5216e95c3b53d6c6a773869e78791ca249a28fb8e3ee9c1c6cea3645",
+      "blob_sha": "c02c225e47c1b9186c6e301b9d8a2e5cdfd447a9"
+    },
+    {
+      "name": "part-018.bin",
+      "size": 8388608,
+      "sha256": "4a7bbc764100b974744fd2786799710f5b464bd4bf426d7a8f33ad032293a7d6",
+      "blob_sha": "9e4cc29634c1bca787f00a6f63e2c056778ddc70"
+    },
+    {
+      "name": "part-019.bin",
+      "size": 8388608,
+      "sha256": "47f616113995420f48929db4060cbda9f9d51d63949c2cdf43a1a0229dde3dde",
+      "blob_sha": "76774bb7858d7620445a86a95045da44eb51805e"
+    },
+    {
+      "name": "part-020.bin",
+      "size": 8388608,
+      "sha256": "b484ee34705243179d65f0366b6b5deeb077dd5af167cabead2443344a408acf",
+      "blob_sha": "68a84b4d25d3a7790cb76ca1746beb2a949768ee"
+    },
+    {
+      "name": "part-021.bin",
+      "size": 8388608,
+      "sha256": "3ebaed7e91b91aa6fa7315a005edf0d0bcf33861a88fecca347190694933d72e",
+      "blob_sha": "33d85f8c622d284d10674558bc54eea66adfb11c"
+    },
+    {
+      "name": "part-022.bin",
+      "size": 8388608,
+      "sha256": "d1e86ba3848e06910a30bc129688fb36d88d5fcb812732ce28368e893c1ca648",
+      "blob_sha": "d3ca563fea5b93025ce9d38cd28c0754c72260ce"
+    },
+    {
+      "name": "part-023.bin",
+      "size": 8388608,
+      "sha256": "fb3068d573e659a787fc91468a76f9d05e9c84b199bf7a3c995a206902a15012",
+      "blob_sha": "2bbb7c30db5a1f135419c5845c6ba5476cd8eab0"
+    },
+    {
+      "name": "part-024.bin",
+      "size": 8388608,
+      "sha256": "59b01d3b4aad19ec430d2bcc8d87e77fda7baa4beff31fecaeaa3bd81a9d026e",
+      "blob_sha": "422134aeadb9e65a3de35973a8e86297273ed5e9"
+    },
+    {
+      "name": "part-025.bin",
+      "size": 3836300,
+      "sha256": "40eafd97d90f3a5a944d3e0d7abd12e3042cb9228063b50bbbd4d47e8008c21c",
+      "blob_sha": "cad7d45264bd9b801dfdf8c7f733e63f1adb631a"
+    }
+  ]
+}
