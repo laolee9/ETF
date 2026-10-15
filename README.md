@@ -4,11 +4,11 @@
 
 [下载 DMG 安装包](https://github.com/laolee9/ETF/releases/latest)
 
-1.0.2 改善了启动速度和加载提示，升级保留现有数据库、标的清单与配置。
+1.1.1 新增窗口右上角「检查更新」按钮与菜单入口，完善主仓与反弹研究页面。升级保留现有数据库、标的清单与配置。
 
 ## 安装与使用
 
-1. 下载 Release 中的 `ETFQuantDashboard-1.0.2-AppleSilicon.dmg`。
+1. 下载 Release 中的 `ETFQuantDashboard-1.1.1-AppleSilicon.dmg`。
 2. 双击打开，将「ETF量化看板」拖到「Applications」。
 3. 从「应用程序」打开。首次启动会恢复内置行情数据库，稍候即可使用。
 
@@ -57,7 +57,7 @@ Release 附有 `.sha256` 校验文件，用于检查下载完整性。将 DMG �
 
 ```bash
 cd "$HOME/Downloads"
-shasum -a 256 -c ETFQuantDashboard-1.0.2-AppleSilicon.dmg.sha256
+shasum -a 256 -c ETFQuantDashboard-1.1.1-AppleSilicon.dmg.sha256
 ```
 
-确认输出为 `ETFQuantDashboard-1.0.2-AppleSilicon.dmg: OK`。校验值一致表示文件与发布包相符，不等于通过 Apple 公证。此仓库提供 macOS 安装包及使用说明。
+确认输出为 `ETFQuantDashboard-1.1.1-AppleSilicon.dmg: OK`。校验值一致表示文件与发布包相符，不等于通过 Apple 公证。此仓库提供 macOS 安装包及使用说明。
