@@ -1,0 +1,56 @@
+name: Publish macOS installer 1.1.1
+on:
+  push:
+    branches: [main]
+    paths: ['.release-parts/v1.1.1/**']
+permissions:
+  contents: read
+concurrency:
+  group: publish-macos-installer
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Restore and verify protected installer
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          folder = Path('.release-parts/v1.1.1')
+          manifest = json.loads((folder / 'manifest.json').read_text())
+          output = Path('ETFQuantDashboard-1.1.1-AppleSilicon.dmg')
+          assert manifest['filename'] == output.name
+          assert manifest['sha256'] == '0ed57a60038747d6a93f01fffeac78187817cfeb2f6e020e67c95178db84b780'
+          with output.open('wb') as target:
+              for index, part in enumerate(manifest['parts']):
+                  assert part['name'] == f'part-{index:03d}.bin'
+                  payload = (folder / part['name']).read_bytes()
+                  assert len(payload) == part['size'], 'Part size mismatch'
+                  assert hashlib.sha256(payload).hexdigest() == part['sha256'], 'Part checksum mismatch'
+                  target.write(payload)
+          assert output.stat().st_size == 235972233, 'Installer size mismatch'
+          digest = hashlib.sha256(output.read_bytes()).hexdigest()
+          assert digest == manifest['sha256'], 'Installer checksum mismatch'
+          Path(str(output) + '.sha256').write_text(f'{digest}  {output.name}\n')
+          print(f'Installer verified: {output.name}, {output.stat().st_size} bytes, SHA256 {digest}')
+          PY
+      - name: Upload verified assets and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view v1.1.1 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            [ "$(gh release view v1.1.1 --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)" = true ] || { echo 'Release already public; refusing to replace it'; exit 1; }
+          else
+            gh release create v1.1.1 --repo "$GITHUB_REPOSITORY" --target 0f966a5f99ebfb46f7593b62a8b45dca9e3684cf --title 'ETF 量化看板 1.1.1 · Apple Silicon' --notes-file release-notes.md --draft
+          fi
+          gh release upload v1.1.1 ETFQuantDashboard-1.1.1-AppleSilicon.dmg ETFQuantDashboard-1.1.1-AppleSilicon.dmg.sha256 --repo "$GITHUB_REPOSITORY" --clobber
+          gh release edit v1.1.1 --repo "$GITHUB_REPOSITORY" --draft=false --latest
